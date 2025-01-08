@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    height: 50px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 20px;
+}
+.search-bar input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: rgb(238, 238, 203);
+    cursor: pointer;
+}
+.search-bar button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: rgb(232, 139, 105);
+    color: white;
+    cursor: pointer;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.tabs{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+.tabs a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.banner{
+    background-image: url("/Image/banner.png");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 78, 0);
+    text-shadow: 0 2px 4px rgb(0,0,0,0.6);
+    font-size: 70px;
+    font-weight: bold;
+}
+.products{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.product{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+.product img{
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.product h3{
+    font-size: 16px;
+    margin-bottom: 0 0 10px;
+}
+.product button{
+    background-color: #febd69;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+footer{
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
